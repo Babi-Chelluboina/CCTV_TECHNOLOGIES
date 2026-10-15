@@ -1,0 +1,26 @@
+﻿<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" fill="none">
+  <defs>
+    <radialGradient id="orange"><stop stop-color="#fff3bd"/><stop offset=".22" stop-color="#ffad43"/><stop offset="1" stop-color="#ff541d" stop-opacity="0"/></radialGradient>
+    <radialGradient id="blue"><stop stop-color="#c4f2ff"/><stop offset=".24" stop-color="#21bfff"/><stop offset="1" stop-color="#0789ff" stop-opacity="0"/></radialGradient>
+    <filter id="glow" x="-150%" y="-150%" width="400%" height="400%"><feGaussianBlur stdDeviation="5" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+  </defs>
+  <g stroke="#f77b31" stroke-opacity=".32" stroke-width="1.3">
+    <path d="M0 55 112 93 199 18 291 126 389 73 481 149 576 83 669 166 761 112 856 198 948 126 1041 193 1132 92 1228 166 1322 64 1413 151 1514 49 1600 111"/>
+    <path d="M0 55 39 225 153 180 112 93 199 18 241 228 291 126 351 296 389 73 481 149 527 321 576 83 669 166 704 302 761 112 856 198 901 342 948 126 1041 193 1087 342 1132 92 1228 166 1270 321 1322 64 1413 151 1460 302 1514 49 1600 111"/>
+    <path d="M0 392 97 321 153 180 241 228 351 296 435 424 527 321 614 451 704 302 802 430 901 342 990 459 1087 342 1178 453 1270 321 1360 440 1460 302 1542 420 1600 372"/>
+    <path d="M0 392 81 560 190 482 278 614 370 508 435 424 532 595 614 451 712 619 802 430 892 615 990 459 1081 611 1178 453 1272 625 1360 440 1454 602 1542 420 1600 520"/>
+    <path d="M0 777 81 690 190 748 278 614 370 782 468 663 532 595 629 781 712 619 802 805 892 615 985 781 1081 611 1173 786 1272 625 1362 793 1454 602 1540 750 1600 680"/>
+    <path d="M0 777 102 865 190 748 278 875 370 782 468 890 532 595 629 781 712 619 802 805 892 615 985 781 1081 611 1173 786 1272 625 1362 793 1454 602 1540 750 1600 680"/>
+  </g>
+  <g stroke="#148ee8" stroke-opacity=".23" stroke-width="1.2">
+    <path d="M0 220 153 180 278 614 389 73 527 321 669 166 802 430 948 126 1087 342 1228 166 1360 440 1514 49 1600 372"/>
+    <path d="M0 632 190 482 370 508 532 595 704 302 892 615 1041 193 1178 453 1322 64 1454 602 1600 520"/>
+    <path d="M39 225 97 321 241 228 435 424 576 83 712 619 856 198 985 781 1132 92 1272 625 1413 151 1540 750"/>
+  </g>
+  <g filter="url(#glow)">
+    <circle cx="112" cy="93" r="18" fill="url(#orange)"/><circle cx="199" cy="18" r="14" fill="url(#orange)"/><circle cx="291" cy="126" r="20" fill="url(#orange)"/><circle cx="389" cy="73" r="14" fill="url(#orange)"/><circle cx="481" cy="149" r="16" fill="url(#orange)"/><circle cx="576" cy="83" r="14" fill="url(#orange)"/><circle cx="669" cy="166" r="15" fill="url(#orange)"/><circle cx="761" cy="112" r="15" fill="url(#orange)"/><circle cx="856" cy="198" r="17" fill="url(#orange)"/><circle cx="948" cy="126" r="14" fill="url(#orange)"/><circle cx="1041" cy="193" r="16" fill="url(#orange)"/><circle cx="1132" cy="92" r="14" fill="url(#orange)"/><circle cx="1228" cy="166" r="16" fill="url(#orange)"/><circle cx="1322" cy="64" r="14" fill="url(#orange)"/><circle cx="1413" cy="151" r="16" fill="url(#orange)"/><circle cx="1514" cy="49" r="14" fill="url(#orange)"/>
+    <circle cx="39" cy="225" r="17" fill="url(#blue)"/><circle cx="153" cy="180" r="13" fill="url(#orange)"/><circle cx="241" cy="228" r="14" fill="url(#orange)"/><circle cx="351" cy="296" r="14" fill="url(#orange)"/><circle cx="435" cy="424" r="16" fill="url(#orange)"/><circle cx="527" cy="321" r="13" fill="url(#blue)"/><circle cx="614" cy="451" r="15" fill="url(#orange)"/><circle cx="704" cy="302" r="15" fill="url(#orange)"/><circle cx="802" cy="430" r="15" fill="url(#blue)"/><circle cx="901" cy="342" r="14" fill="url(#orange)"/><circle cx="990" cy="459" r="14" fill="url(#orange)"/><circle cx="1087" cy="342" r="15" fill="url(#blue)"/><circle cx="1178" cy="453" r="15" fill="url(#orange)"/><circle cx="1270" cy="321" r="15" fill="url(#orange)"/><circle cx="1360" cy="440" r="15" fill="url(#blue)"/><circle cx="1460" cy="302" r="15" fill="url(#orange)"/><circle cx="1542" cy="420" r="14" fill="url(#orange)"/>
+    <circle cx="81" cy="560" r="15" fill="url(#blue)"/><circle cx="190" cy="482" r="14" fill="url(#orange)"/><circle cx="278" cy="614" r="14" fill="url(#orange)"/><circle cx="370" cy="508" r="14" fill="url(#blue)"/><circle cx="532" cy="595" r="15" fill="url(#orange)"/><circle cx="712" cy="619" r="16" fill="url(#blue)"/><circle cx="892" cy="615" r="15" fill="url(#orange)"/><circle cx="1081" cy="611" r="14" fill="url(#blue)"/><circle cx="1272" cy="625" r="16" fill="url(#orange)"/><circle cx="1454" cy="602" r="16" fill="url(#blue)"/>
+    <circle cx="81" cy="690" r="15" fill="url(#orange)"/><circle cx="190" cy="748" r="15" fill="url(#blue)"/><circle cx="370" cy="782" r="14" fill="url(#orange)"/><circle cx="468" cy="663" r="14" fill="url(#blue)"/><circle cx="629" cy="781" r="15" fill="url(#orange)"/><circle cx="802" cy="805" r="16" fill="url(#blue)"/><circle cx="985" cy="781" r="15" fill="url(#orange)"/><circle cx="1173" cy="786" r="15" fill="url(#blue)"/><circle cx="1362" cy="793" r="15" fill="url(#orange)"/><circle cx="1540" cy="750" r="15" fill="url(#blue)"/>
+  </g>
+</svg>
